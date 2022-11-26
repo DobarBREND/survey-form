@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+	<link rel="icon" type="image/x-icon" href="./images/survey_icon.ico">
+  </head>
+  <body class="hero-image">
+			
+		
+		<h1 id="title">Survey Form</h1>
+		<img src="./images/survey_icon.png" alt="logo" id="logo">
+		<p id="description">Fill this form with information referring to given requirements</p>
+		
+	<form id="survey-form">
+		
+			<label id="option-label" class="backo">Do you like my Survey Form?</label>
+				<select id="dropdown">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</select>
+
+			<p id="form-questions" class="backo">Can you describe your first impression?</p>
+				<label id="radio-label">
+				<input type="radio" name="radio-button" value="first"><span>bad</span></label>
+				  
+				<label id="radio-label">
+				<input type="radio" name="radio-button" value="second"><span>comme-ci, comme-ca</span></label>
+
+				<label id="radio-label">
+				<input type="radio" name="radio-button" value="second"><span>good</span></label>
+
+				<label id="radio-label">
+				<input type="radio" name="radio-button" value="second" checked="checked"><span>extra</span></label>
+				 
+				<label id="name-label">Name
+				<input type="text" id="name" required placeholder="Enter Your Name"></label>
+
+				<label id="email-label">Email
+				<input type="email" id="email" required placeholder="Enter Your Email"></label>
+
+				<label id="number-label">Number
+				<input type="number" id="number" min=5 max=25 placeholder="Num."></label>
+
+			<label id="form-questions" class="backo">What would you like to add to the form?</label>
+		 
+		 <p id="checkbox-answers">
+		 <input type="checkbox" value="first-checkbox">
+		<span>more text</span></p> 
+
+		<p id="checkbox-answers">
+		<input type="checkbox" value="second-checkbox">
+		<span>more images</span></p>
+
+		<p id="checkbox-answers">
+		<input type="checkbox" value="third-checkbox">
+		<span>more imagination</span></p>      
+		
+		<p id="checkbox-answers">
+		<input type="checkbox" value="fourth-checkbox">
+		<span>more creativity</span></p>
+			
+		  <p id="form-questions" class="backo">Any comments or suggestions?</p>
+			  <textarea placeholder="Please type all your ideas in here..."></textarea>
+			  <input type="submit" id="submit">
+
+			
+    </form>  
+    <footer>
+		<p>© Vladimir Jovanović :: DobarBREND 2022</p>
+	</footer>	
+  </body>
+
+</html>
